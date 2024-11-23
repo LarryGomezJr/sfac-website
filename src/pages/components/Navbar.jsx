@@ -55,7 +55,7 @@ const Navbar = () => {
       name: "College Inquiries",
       href: "#",
       dropdownItems: [
-        { name: "Bachelor of Science in Nursing", href: "/courses/bsn" },
+        { name: "Bachelor of Science in Nursing", href: "/components/BsNursing" },
         {
           name: "Bachelor of Science in Electrical Engineering",
           href: "/courses/bsee",
