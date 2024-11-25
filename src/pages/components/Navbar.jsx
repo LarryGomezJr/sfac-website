@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+
 import {
   Menu,
   X,
@@ -70,7 +71,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Science in Computer Science",
-          href: "/courses/bscs",
+          href: "./components/BsComputerScience",
         },
         {
           name: "Bachelor of Science in Business Administration",

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import Enrollment from "./components/Enrollment";
+import Requirements from "./components/Requirements";
 
 
 export default function Home() {
