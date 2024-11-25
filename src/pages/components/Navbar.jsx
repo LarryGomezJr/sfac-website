@@ -66,7 +66,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Science in Computer Engineering",
-          href: "/courses/bscpe",
+          href: "/components/BSComputerEng",
         },
         {
           name: "Bachelor of Science in Computer Science",
