@@ -1,12 +1,13 @@
+// pages/index.js
 import Image from "next/image";
-import localFont from "next/font/local";
-
+import Navbar from './components/Navbar';
+import BsComputerEngineering from './components/BsComputerEngineering';  // Updated import for HeroSection
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      
-      {/* Other content */}
+    <div>
+      <Navbar />  
+      <BsComputerEngineering />
     </div>
   );
 }
