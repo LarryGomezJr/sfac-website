@@ -14,7 +14,7 @@ const About = () => {
 
 In 1989, the tertiary level in SFAC came into being offering several courses both in degree and non-degree programs. New campuses have since been added: the Pamplona, Las Piñas campus in 1990, the Bacoor, Cavite campus in 1994, the Alabang, Muntinlupa campus in 1996. In the same year, 1996, Saint Anthony School of Las Piñas came under SFAC supervision and management. Dasmariñas, Cavite campus opened in 1999. The Biñan campus, in Laguna opened in 2006. In 2010, the Los Baños campus was renamed Saint Anthony School of Los Baños, named after the patron saint of the locality. The 10th campus, located in Sta. Rosa, Laguna accepts enrollees starting S.Y. 2012 – 2013. In line with corporate branding moves, the Pamplona campus, being the smallest campus, moved its operation to the main campus in 2014..</p>
       <div class="flex w-full md:justify-start justify-center items-end">
-        
+        {/* hello */}
         
       </div>
       
