@@ -50,7 +50,7 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Contact Us", href: "/contact" },
+    { name: "Contact Us", href: "/components/Directory" },
     {
       name: "College Inquiries",
       href: "#",
