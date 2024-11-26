@@ -101,7 +101,7 @@ const Navbar = () => {
       name: "Departments",
       href: "#",
       dropdownItems: [
-        { name: "Basic Education", href: "/departments/basic-education" },
+        { name: "Basic Education", href: "/components/Department" },
         { name: "Higher Education", href: "/departments/higher-education" },
       ],
     },
