@@ -11,9 +11,6 @@ const Footer = () => {
             <Image src={logo} alt="sfac logo" width={40} height={40} />
             <span class="ml-3 text-xl text-red-600">SFAC Las Piñas</span>
           </a>
-          <p class="mt-2 text-sm text-gray-500">
-            Air plant banjo lyft occupy retro adaptogen indego
-          </p>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
