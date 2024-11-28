@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <h2 class="text-red-600 text-xl title-font font-medium">VISION</h2>
           </div>
-            <div class="inline-block  h-1 w-10 mx-auto rounded bg-red-400 mt-2 mb-5">
+            <div class="inline-block h-1 w-10 mx-auto rounded bg-red-400 mt-2 mb-5">
               <span class="inline-block h-1 w-20 rounded bg-red-400 mt-2 mb-2"></span>
             </div>
             <p class="leading-relaxed text-base text-justify text-gray-900 text-justify text-lg title-font font-sm">Saint Francis of Assisi College (SFAC) is a hub for progressive and holistic education, guided by the virtues of Saint Francis of Assisi that empowers learners with a solid academic foundation enriched by physical, spiritual, and cultural advancement.</p>
