@@ -36,7 +36,7 @@ const Contacts = () => {
           <div className="bg-white p-6 rounded shadow-md w-full">
             <div className="mb-4">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-              <p className="mt-1">045 Admiral, Las Piñas, 1740 Metro Manila</p>
+              <p className="mt-1">045 Admiral, Las Piñas, 1747 Metro Manila</p>
             </div>
             <div className="mb-4">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>

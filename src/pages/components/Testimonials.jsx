@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <section class="text-2xl text-white-900 body-font">
+    <section class="text-2xl text-justify text-white-900 body-font">
   <div class="container px-5 py-24 mx-auto">
     <h1 class="text-4xl font-medium title-font text-white-900 mb-12 text-center">Testimonials</h1>
     <div class="flex flex-wrap -m-4">

@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div
     className="hero min-h-[85vh] flex items-center justify-center"
     style={{
-      backgroundImage: "url(https://stfrancis.edu.ph/wp-content/uploads/2019/07/img1.jpg)",
+      backgroundImage: "url(https://stfrancis.edu.ph/wp-content/uploads/2022/09/IMG_3447-Copy-2.jpg)",
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
