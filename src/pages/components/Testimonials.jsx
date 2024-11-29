@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <section class="text-2xl text-justify text-white-900 body-font">
   <div class="container px-5 py-24 mx-auto">
-    <h1 class="text-4xl font-medium title-font text-white-900 mb-12 text-center">Testimonials</h1>
+    <h1 class="text-4xl font-medium  text-red-700 title-font text-white-900 mb-12 text-center">Testimonials</h1>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/2 w-full">
         <div class="h-full bg-gray-100 p-8 rounded">
