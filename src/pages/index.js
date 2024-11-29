@@ -1,6 +1,8 @@
 import Image from "next/image";
 import localFont from "next/font/local";
 import About from "./components/About";
+import Department from "./components/Department";
+
 
 
 export default function Home() {
@@ -8,6 +10,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       
       <About/>
+      <Department/>
 
     </div>
   );
