@@ -11,7 +11,6 @@ export default function Home() {
       <Hero2 />
       <Blog />
       <Location />
-      <Directory />
       {/* Other content */}
     </div>
   );

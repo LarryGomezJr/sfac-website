@@ -19,7 +19,7 @@ const Hero2 = () => {
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
                 BASIC EDUCATION DEPARTMENT
               </h2>
-              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+              <button className="flex mx-auto mt-6 text-white bg-red-700 border-0 py-2 px-5 focus:outline-none hover:bg-red-300 rounded">
                 Button
               </button>
             </div>
@@ -34,7 +34,7 @@ const Hero2 = () => {
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
                 HIGHER EDUCATION DEPARTMENT
               </h2>
-              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+              <button className="flex mx-auto mt-6 text-white bg-red-700 border-0 py-2 px-5 focus:outline-none hover:bg-red-300 rounded">
                 Button
               </button>
             </div>
