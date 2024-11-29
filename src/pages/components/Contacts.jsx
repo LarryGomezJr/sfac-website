@@ -1,7 +1,10 @@
 import React from 'react';
+import Directory from './Directory';
 
 const Contacts = () => {
   return (
+    <>
+    <Directory />
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto grid lg:grid-cols-2 gap-10">
         {/* Map Section */}
@@ -50,6 +53,7 @@ const Contacts = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
