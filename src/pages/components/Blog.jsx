@@ -3,6 +3,7 @@ import SFAC from '../../../public/SFAC.jpg';
 import College from '../../../public/College.jpg';
 import Copy2 from '../../../public/Copy2.jpg';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Blog = () => {
   return (
@@ -12,7 +13,7 @@ const Blog = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   alt="content" 
                   className="object-cover object-center w-full h-full" 
                   src="/SFAC.jpg" 
@@ -41,7 +42,7 @@ const Blog = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   alt="content" 
                   className="object-cover object-center w-full h-full" 
                   src="/College.jpg" 
@@ -67,7 +68,7 @@ const Blog = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-              <img 
+              <Image 
               alt="content" 
               className="object-cover object-center w-full h-full" 
               src="/Copy2.jpg" 
