@@ -11,11 +11,11 @@ const Requirements = () => {
           
           <h1 className="title-font sm:text-2xl text-xl font-medium text-grey-900  text-center mb-3">FRESHMEN COLLEGE ADMISSION</h1>
           <ul className="text-left list-disc">
-            <li>ORIGINAL FORM 138</li>
-             <li>ORIGINAL CERTIFICATE OF GOOD MORAL CHARACTER</li>
-              <li>PHOTOCOPY OF PSA AUTHENTICATED BIRTH CERTIFICATE</li>
-              <li>TWO PIECES EACH OF "2X2" AND "1X1" ID PICTURE</li>
-              <li>ALS CERTIFICATE FOR ALS PASSER</li>
+                <li>ORIGINAL FORM 138</li>
+                <li>ORIGINAL CERTIFICATE OF GOOD MORAL CHARACTER</li>
+                <li>PHOTOCOPY OF PSA AUTHENTICATED BIRTH CERTIFICATE</li>
+                <li>TWO PIECES EACH OF "2X2" AND "1X1" ID PICTURE</li>
+                <li>ALS CERTIFICATE FOR ALS PASSER</li>
           </ul>
         </div>
       </div>

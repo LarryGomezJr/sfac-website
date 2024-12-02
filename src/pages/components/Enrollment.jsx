@@ -1,15 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 import enrollment from '../../../public/enrollment.png';
-import number from '../../../public/number.png'
+// import binary from '../../../public/binary.png'
+
+
 
 const Enrollment = () => {
   return (
-    <div className='py-24' >
-    <div className='container-fluid bg-primary py-5 mb-5 hero-header'>
-      <h1>
-        ufhioefeh
-      </h1>
+    <div>
+    <div className='hero-header'>
+      <div className='text-overlay'>
+        <h1>
+            BS in Computer Science
+        </h1>
+      </div>
+      
     </div>
     <div className='col-lg-6 order-1 order-lg-2 aos-init aos-animate   '>
       

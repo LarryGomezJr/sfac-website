@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prosto+One&display=swap');
+
+
+
 #app {
   height: 100%
 }
@@ -36,8 +40,56 @@ body {
 }
 
 .hero-header {
-  background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../../public/number.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  background-image: url(../../public/number.png); /* Background image */
+  background-size: cover; /* Cover the container */
+  background-position: center; /* Center the image */
+  height: 400px; /* Default height */
+  width: 100%; /* Full width */
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Horizontally center the text */
+  align-items: center; /* Vertically center the text */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.text-overlay {
+  font-size: clamp(2rem, 6vw, 6rem); /* Responsive font size */
+  font-weight: bold; /* Bold text */
+  color: lightgray; /* Text color */
+  text-align: center; /* Center text horizontally */
+  transform: translate(-50%, -50%); /* Perfect centering with transform */
+  position: absolute; /* Position relative to hero container */
+  top: 50%; /* Vertically center */
+  left: 50%; /* Horizontally center */
+  text-shadow: 8px -5px 3px rgb(0, 0, 0); /* Optional text shadow for better contrast */
+  padding: 10px; /* Padding around text */
+  line-height: 1.2; /* Spacing between lines */
+  max-width: 90%; /* Limit text width */
+  white-space: nowrap; /* Prevent line breaks in the text */
+}
+
+/* Media Queries for better control on different screen sizes */
+@media (max-width: 1200px) {
+  .text-overlay {
+    font-size: 8vw; /* Slightly larger font size on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+    font-size: 10vw; /* Bigger text on smaller tablets/screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-overlay {
+    font-size: 12vw; /* Even larger text for mobile devices */
+  }
+}
+
+.full-width-component {
+  width: 100%;           /* Make the component take the full width of the parent */
+  max-width: 100%;       /* Ensure it doesn't go beyond the parent container */
+  padding: 10px;         /* Optional padding */
+  box-sizing: border-box; /* Includes padding in the width calculation */
 }
