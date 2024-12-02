@@ -2,9 +2,10 @@ import React from 'react'
 import { GiClick } from "react-icons/gi";
 import { MdOutlinePayments } from "react-icons/md";
 import { IoIosSend } from "react-icons/io";
-import { FaReceipt } from "react-icons/fa6";
+import { FaReceipt } from "react-icons/fa";
 import Payment from './Payment';
-const BSComputerEng = () => {
+
+const BSSecondaryEduc = () => {
   return (
     <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -65,7 +66,8 @@ const BSComputerEng = () => {
     <Payment />
   </div>
 </div>
+
   )
 }
 
-export default BSComputerEng
+export default BSSecondaryEduc

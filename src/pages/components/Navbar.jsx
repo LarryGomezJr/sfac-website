@@ -90,7 +90,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Secondary Education/Teacher Certification Program",
-          href: "/courses/bsed",
+          href: "/components/BSSecondaryEduc",
         },
         { name: "Master in Business Administration", href: "/graduate/mba" },
         { name: "Masters of Arts in Education", href: "/graduate/maed" },
