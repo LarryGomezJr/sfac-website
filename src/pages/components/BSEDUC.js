@@ -1,7 +1,7 @@
 import React from 'react'
 import Step from './Step'
 
-const BSComEng = () => {
+const BSEDUC = () => {
   return (
 
 <section class="text-gray-600 body-font overflow-hidden">
@@ -118,4 +118,4 @@ const BSComEng = () => {
   )
 }
 
-export default BSComEng
+export default BSEDUC
