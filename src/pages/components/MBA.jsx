@@ -1,13 +1,23 @@
 import React from 'react'
+import ca from "../../../public/zirlars.png"
+import Image from 'next/image'
 
-const Department = () => {
+const MBA = () => {
   return (
-<section class="text-black-400 body-font overflow-hidden">
+    <section class="text-gray-400 bg-white body-font">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"/>
+    <Image class="mx-auto"
+      src="/zirlars.png"
+      width={700}
+      height={700}
+      alt="Picture of the author"
+    />
+    <section class="text-black-400 body-font overflow-hidden">
 <div class="container px-1 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
         <p class="text-red-600 text-3xl font-bold">OFFERED</p>
-        <p class="text-black text-5xl font-bold font-large"> LEVELS</p>
+        <p class="text-black text-5xl font-bold font-large"> PROGRAM</p>
       </h1>
     </div>
 
@@ -16,7 +26,7 @@ const Department = () => {
         <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden group block rounded-lg bg-white ring-1 ring-slate-900 shadow-lg space-y-3
         hover:bg-red-600 hover:sky-900">
           
-          <h1 class="text-3xl text-black pb-4 mb-4 border-b border-gray-800 leading-none group-hover:text-white group-hover:border-white">PRE-SCHOOL</h1>
+        
           <div class="flex items-center text-gray-400 mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white-800 text-red-500 rounded-full flex-shrink-0 group-hover:text-white">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
@@ -148,7 +158,10 @@ const Department = () => {
     </div>
   </div>
 </section>
+
+      
+  </section>
   )
 }
 
-export default Department
+export default MBA
