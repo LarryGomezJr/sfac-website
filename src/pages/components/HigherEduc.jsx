@@ -1,5 +1,4 @@
 import React from 'react'
-import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 const HigherEduc = () => {
   return (
