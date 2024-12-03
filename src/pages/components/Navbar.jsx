@@ -78,7 +78,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Science in Hospitality Management",
-          href: "/courses/bshm",
+          href: "/components/BsHM",
         },
         {
           name: "Bachelor of Arts, Major in Psychology",

@@ -2,59 +2,38 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import sfaclogo from '../../../public/sfaclogo.png'
-import Nursing from '../../../public/Nursing.jpg'
+import Hm from '../../../public/Hm.jpg'
 import sfacbg from '../../../public/sfacbg.jpg'
-
-const BsNursing = () => {
+import Gcashpayment from '../../../public/Gcashpayment.jpg'
+const BsHM = () => {
   return (
     <section className="text-gray-600 body-font">
      
-     {/* BS IN NURSING PHOTO */}
+     {/* BS IN HM PHOTO */}
      
-    <figure >
-     <Image className="items-center justify-center flex-col container-fluid bg-primary py-5 mb-5 hero-header transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 " src={Nursing} width={10000} height={10000} alt="image description"/>
+    <div/>
+     <Image className="h-auto max-w-full mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none " src={Hm} width={10000} height={10000} alt="image description "/>
      
-</figure>
+     
+     <div className="absolute inset-0 flex items-center justify-center text-white text-center">
+     <h1 className="text-7xl font-bold text-black">BS IN HOSPITALITY MANAGEMENT</h1>
+     </div>
+     
+<div/>
 
-<div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <Image className="md:w-1/4 md:w-3/6 w-1/4 mb-5 object-cover object-center rounded" alt="Logo" src={sfaclogo}   width={500}
-    height={500}/>
-    <div className="text-center lg:w-1/3 w-full">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ONLINE & ONSITE ENROLLMENT IS ONGOING</h1>
-
+<div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <Image class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={sfaclogo} width={500} height={500}/>
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ONLINE & ONSITE ENROLLMENT IS ONGOING </h1>
+      <div class="flex justify-center">
+      </div>
     </div>
   </div>
 
 
 
 
-     {/* <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-     <Image className="container-fluid bg-primary py-5 mb-5 hero-header" src={Nursing} width={1000} height={1000} alt="image description"/>
-     <figcaption className="absolute px-4  text-lg text-white bottom-6">
-        <div className="container-fluid bg-primary py-5">
-          <div className="container py-5">
-          <div className="row justify-content-center py-5">
-          <div className="col-lg-10 pt-;g-5 mt-lg-5 text-center">
-            <h1 className="display-3 text-white animated slideInDown">
-          BS in Nursing
-            </h1>
-        
-          </div>
-          </div>
-          </div>
-        </div>
-      </figcaption>
-    </figure>
-
-
-    <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-5 object-cover object-center rounded" alt="Logo" src={sfaclogo}   width={250}
-    height={250}/>
-    <div className="text-center lg:w-2/3 w-full">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ONLINE & ONSITE ENROLLMENT IS ONGOING</h1>
-
-    </div>
-  </div> */}
+     
 
 
 
@@ -122,7 +101,7 @@ const BsNursing = () => {
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>RIGINAL TRANSCRIPT OF RECORD (TOR)
+            </span>ORIGINAL TRANSCRIPT OF RECORD (TOR)
           </p>
           <p className="flex items-center text-gray-600 mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-600 text-white rounded-full flex-shrink-0">
@@ -136,7 +115,7 @@ const BsNursing = () => {
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>RIGINAL HONORABLE DISMISSAL
+            </span>ORIGINAL HONORABLE DISMISSAL
           </p>
           <p className="flex items-center text-gray-600 mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-600 text-white rounded-full flex-shrink-0">
@@ -260,10 +239,68 @@ const BsNursing = () => {
         <Image className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src={sfacbg} alt="step" width={500} height={500}/>
       </div>
     </div>
+
+
+
+
+
+
+
+    {/* Payment Option */}
+
+    <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+     
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">PAYMENT OPTION</h1>
+      
+    </div>
+    <div class="flex flex-wrap">
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Option 1</h2>
+        <p class="leading-relaxed text-base font-bold mb-4">EAST WEST BANK</p>
+        <ul className="list-none font-bold">
+            <li>Payment Details</li>
+            <li>Account Name: Saint Francis de Assisi Educational Foundation Inc.</li>
+            <li>Account Number:2000-0074-2383</li>
+            <li>BranchAlabang Madrigal</li>
+        </ul>
+        
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">OPTION 2 - GCASH</h2>
+        <p class="leading-relaxed text-base mb-4 font-bold">Download HD Payment guide here:</p>
+        
+<figure class="max-w-lg">
+  <Image class="h-auto max-w-full rounded-lg" src={Gcashpayment} height={500} width={500} alt="image description"/>
+  
+</figure>
+
+       
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 ">OPTION 3-Direct Payment</h2>
+
+
+        <ul className="list-none font-bold">
+            <li>At SFAC - Accounting Office Las Pinas</li>
+            <li>Monday to Friday: 7:00am to 4:00pm/Saturday 8:00 to 12:00nn</li>
+          
+        </ul>
+      </div>
+      {/* <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SCHOOL ADDRESS</h2>
+        <p class="leading-relaxed text-base mb-4 font-bold text-4xl ">045 Admiral, Talon 3, Las Pinas, 1740 Metro Manila</p>
+        <a class="text-indigo-500 inline-flex items-center">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div> */}
+    </div>
+    
+  </div>
   </section>
   )
 }
 
-export default BsNursing
-
-
+export default BsHM
