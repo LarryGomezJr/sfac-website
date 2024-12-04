@@ -50,7 +50,7 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                <a class="text-gray-600 hover:text-gray-800">Contact Us:</a>
               </li>
               <li>
                 <a class="text-gray-600 hover:text-gray-800">info@stfrancis.edu.ph</a>
@@ -69,7 +69,7 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                <a class="text-gray-600 hover:text-gray-800">Contact Us:</a>
               </li>
               <li>
                 <a class="text-gray-600 hover:text-gray-800">info@stfrancis.edu.ph</a>
