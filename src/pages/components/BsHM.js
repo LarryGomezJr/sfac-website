@@ -5,6 +5,7 @@ import sfaclogo from '../../../public/sfaclogo.png'
 import Hm from '../../../public/Hm.jpg'
 import sfacbg from '../../../public/sfacbg.jpg'
 import Gcashpayment from '../../../public/Gcashpayment.jpg'
+import Eastwest from '../../../public/Eastwest.jpg'
 const BsHM = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -12,17 +13,20 @@ const BsHM = () => {
      {/* BS IN HM PHOTO */}
      
     <div/>
-     <Image className="h-auto max-w-full mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none " src={Hm} width={10000} height={10000} alt="image description "/>
+     <Image className="h-1/2 max-w-full mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none " src={Hm} width={10000} height={1000} alt="image description "/>
      
      
      <div className="absolute inset-0 flex items-center justify-center text-white text-center">
-     <h1 className="text-7xl font-bold text-black">BS IN HOSPITALITY MANAGEMENT</h1>
-     </div>
+  <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black">
+    BS IN HOSPITALITY MANAGEMENT
+  </h1>
+</div>
+
      
 <div/>
 
 <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <Image class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={sfaclogo} width={500} height={500}/>
+    
     <div class="text-center lg:w-2/3 w-full">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ONLINE & ONSITE ENROLLMENT IS ONGOING </h1>
       <div class="flex justify-center">
@@ -248,27 +252,33 @@ const BsHM = () => {
 
     {/* Payment Option */}
 
-    <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
+    <div class="container px-5 py-24 mx-auto ">
+    <div class="flex flex-col text-center w-full mb-20 ">
      
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">PAYMENT OPTION</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 ">PAYMENT OPTION</h1>
       
     </div>
-    <div class="flex flex-wrap">
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Option 1</h2>
-        <p class="leading-relaxed text-base font-bold mb-4">EAST WEST BANK</p>
-        <ul className="list-none font-bold">
+    <div class="flex flex-wrap gap-2 place-content-center">
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 bg-red-600 rounded-xl ">
+        <h2 class="text-lg sm:text-xl text-slate-50 font-medium title-font mb-2 ">Option 1</h2>
+        <p class="leading-relaxed text-base font-bold mb-4 text-slate-50">EAST WEST BANK</p>
+        <figure class="max-w-lg">
+  <Image class="h-auto max-w-full rounded-lg" src={Eastwest} height={500} width={500} alt="image description"/>
+  
+</figure>
+        <ul className="list-none font-bold text-slate-50 py-5">
             <li>Payment Details</li>
             <li>Account Name: Saint Francis de Assisi Educational Foundation Inc.</li>
             <li>Account Number:2000-0074-2383</li>
             <li>BranchAlabang Madrigal</li>
         </ul>
         
+
+        
       </div>
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">OPTION 2 - GCASH</h2>
-        <p class="leading-relaxed text-base mb-4 font-bold">Download HD Payment guide here:</p>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 bg-red-600 rounded-xl">
+        <h2 class="text-lg sm:text-xl text-slate-50 font-medium title-font mb-2">OPTION 2 - GCASH</h2>
+        <p class="leading-relaxed text-base mb-4 font-bold text-slate-50">Download HD Payment guide here:</p>
         
 <figure class="max-w-lg">
   <Image class="h-auto max-w-full rounded-lg" src={Gcashpayment} height={500} width={500} alt="image description"/>
@@ -277,25 +287,16 @@ const BsHM = () => {
 
        
       </div>
-      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 ">OPTION 3-Direct Payment</h2>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 bg-red-600 rounded-xl">
+        <h2 class="text-lg sm:text-xl text-slate-50 font-medium title-font mb-2 ">OPTION 3-Direct Payment</h2>
 
 
-        <ul className="list-none font-bold">
+        <ul className="list-none font-bold text-slate-50">
             <li>At SFAC - Accounting Office Las Pinas</li>
             <li>Monday to Friday: 7:00am to 4:00pm/Saturday 8:00 to 12:00nn</li>
           
         </ul>
       </div>
-      {/* <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SCHOOL ADDRESS</h2>
-        <p class="leading-relaxed text-base mb-4 font-bold text-4xl ">045 Admiral, Talon 3, Las Pinas, 1740 Metro Manila</p>
-        <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div> */}
     </div>
     
   </div>
