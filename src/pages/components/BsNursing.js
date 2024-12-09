@@ -4,7 +4,7 @@ import Image from 'next/image'
 import sfaclogo from '../../../public/sfaclogo.png'
 import Nursing from '../../../public/Nursing.jpg'
 import sfacbg from '../../../public/sfacbg.jpg'
-
+import Gcashpayment from '../../../public/Gcashpayment.jpg'
 const BsNursing = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -260,6 +260,62 @@ const BsNursing = () => {
         <Image className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src={sfacbg} alt="step" width={500} height={500}/>
       </div>
     </div>
+
+
+
+    {/* Payment Option */}
+
+    <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+     
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">PAYMENT OPTION</h1>
+      
+    </div>
+    <div class="flex flex-wrap">
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Option 1</h2>
+        <p class="leading-relaxed text-base font-bold mb-4">EAST WEST BANK</p>
+        <ul className="list-none font-bold">
+            <li>Payment Details</li>
+            <li>Account Name: Saint Francis de Assisi Educational Foundation Inc.</li>
+            <li>Account Number:2000-0074-2383</li>
+            <li>BranchAlabang Madrigal</li>
+        </ul>
+        
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">OPTION 2 - GCASH</h2>
+        <p class="leading-relaxed text-base mb-4 font-bold">Download HD Payment guide here:</p>
+        
+<figure class="max-w-lg">
+  <Image class="h-auto max-w-full rounded-lg" src={Gcashpayment} height={500} width={500} alt="image description"/>
+  
+</figure>
+
+       
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 ">OPTION 3-Direct Payment</h2>
+
+
+        <ul className="list-none font-bold">
+            <li>At SFAC - Accounting Office Las Pinas</li>
+            <li>Monday to Friday: 7:00am to 4:00pm/Saturday 8:00 to 12:00nn</li>
+          
+        </ul>
+      </div>
+      {/* <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SCHOOL ADDRESS</h2>
+        <p class="leading-relaxed text-base mb-4 font-bold text-4xl ">045 Admiral, Talon 3, Las Pinas, 1740 Metro Manila</p>
+        <a class="text-indigo-500 inline-flex items-center">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div> */}
+    </div>
+    
+  </div>
   </section>
   )
 }
