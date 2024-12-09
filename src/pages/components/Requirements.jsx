@@ -8,6 +8,8 @@ const Requirements = () => {
     <div className=" -m-4 d-flex justify flex-column">
       <div className="p-4 lg:w-1/3">
         <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative">
+        <h1 class="section-title bg-white text-center text-primary px-3">Requirements</h1>
+        
           
           <h1 className="title-font sm:text-2xl text-xl font-medium text-grey-900  text-center mb-3">FRESHMEN COLLEGE ADMISSION</h1>
           <ul className="text-left list-disc">
