@@ -34,7 +34,8 @@ const HeroSection = () => {
       <p className="mb-5">
         045 Admiral, Las Piñas, 1740 Metro Manila, Philippines
       </p>
-      <button className="btn btn-primary">Contact Us</button>
+      <a href="/components/Contacts"  target="_blank"  class="btn btn-primary bg-red-600 p-3 rounded-lg">Contact Us</a>
+
     </div>
   </div>
 </div>
