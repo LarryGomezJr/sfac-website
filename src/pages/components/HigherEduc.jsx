@@ -2,37 +2,6 @@ import React, { useState } from 'react';
 
 
 const HigherEduc = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const styles = {
-    dropdown: {
-      position: 'relative',
-      display: 'inline-block',
-    },
-    arrow: {
-      marginLeft: '5px',
-      fontSize: '12px',
-    },
-    dropdownMenu: {
-      position: 'absolute',
-      top: '100%',
-      left: '0',
-      backgroundColor: '#f9f9f9',
-      minWidth: '160px',
-      boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)',
-      zIndex: 1,
-      listStyleType: 'none',
-      padding: 0,
-      margin: 0,
-    },
-    dropdownMenuItem: {
-      color: '#333',
-      padding: '12px 16px',
-      textDecoration: 'none',
-      display: 'block',
-    },
-  };
-
   return (
     
     <div class="text-gray-600 body-font overflow-hidden bg-white">
@@ -98,50 +67,14 @@ const HigherEduc = () => {
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>
-            <div 
-                style={styles.dropdown}
-                onMouseEnter={() => setIsOpen(true)}
-                onMouseLeave={() => setIsOpen(false)}>
-                  <p class="text-lg text-gray-600 mb-2 group-hover:text-white">
-                    <button style={styles.dropdownToggle}>
-                      Bachelor of Science in Hospitality Management
-                      <span style={styles.arrow}>▼</span>
-                    </button>
-                  </p>
-                  {isOpen && (
-                <ul style={styles.dropdownMenu}>
-                  <div class="flex items-center text-sm">
-                    <li><a href="#" style={styles.dropdownMenuItem}>Major in Psychology</a></li>
-                  </div>
-                </ul>
-                )}
-          </div>
+            </span>Bachelor of Science in Hospitality Management
           </div>
           <div class="flex items-center text-lg text-gray-600 mb-2 group-hover:text-white">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-600 text-white rounded-full flex-shrink-0 group-hover:text-black mb-7 mt-7">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>
-            <div 
-                style={styles.dropdown}
-                onMouseEnter={() => setIsOpen(true)}
-                onMouseLeave={() => setIsOpen(false)}>
-                  <p class="flex items-center text-lg text-gray-600 group-hover:text-white">
-                    <button style={styles.dropdownToggle}>
-                      Bachelor of Arts
-                      <span style={styles.arrow}>▼</span>
-                    </button>
-                  </p>
-                  {isOpen && (
-                <ul style={styles.dropdownMenu}>
-                  <div class="lex items-center text-sm">
-                    <li><a href="#" style={styles.dropdownMenuItem}>Major in Psychology</a></li>
-                  </div>
-                </ul>
-                )}
-          </div>
+            </span>Bachelor of Arts, Major in Psychology
           </div>
           <p class="flex items-center text-lg text-gray-600 mb-2 group-hover:text-white">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-600 text-white rounded-full flex-shrink-0 group-hover:text-black mb-7">
