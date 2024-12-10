@@ -45,40 +45,40 @@ const Footer = () => {
         </div>
         <div class="flex-grow flex flex-row-reverse md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 class="title-font font-semibold text-red-600 tracking-widest text-sm mb-3">
             Basic Education Department
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-gray-800">Contact Us:</a>
+                <a class="text-gray-600 font-semibold hover:text-gray-800">Contact Us:</a>
               </li>
               <li>
                 <a class="text-gray-600 hover:text-gray-800">info@stfrancis.edu.ph</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-gray-800">(2)8800-3131</a>
+                <a class="text-gray-600 hover:text-gray-800">(2) 8800-3131</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-gray-800">09339468066</a>
+                <a class="text-gray-600 hover:text-gray-800">0917-729-2909</a>
               </li>
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 class="title-font font-semibold text-red-600 tracking-widest text-sm mb-3">
               Higher Education Department
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-gray-800">Contact Us:</a>
+                <a class="text-gray-600 font-semibold hover:text-gray-800">Contact Us:</a>
               </li>
               <li>
                 <a class="text-gray-600 hover:text-gray-800">info@stfrancis.edu.ph</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-gray-800">(2)8800-3131</a>
+                <a class="text-gray-600 hover:text-gray-800">(2) 8800-3131</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-gray-800">09339468066</a>
+                <a class="text-gray-600 hover:text-gray-800">0933-946-8066</a>
               </li>
             </nav>
           </div>

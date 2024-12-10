@@ -4,6 +4,7 @@ import Blog from "./components/Blog";
 import Hero2 from "./components/Hero2";
 import Location from "./components/Location";
 import Directory from "./components/Directory";
+import Directory2 from "./components/Directory2";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero2 />
       <Blog />
       <Location />
+      <Directory2 />
       {/* Other content */}
     </div>
   );
