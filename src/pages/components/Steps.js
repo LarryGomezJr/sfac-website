@@ -30,7 +30,7 @@ const Steps = () => {
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div className="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-12 h-12" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            <path d=""></path>
           </svg>
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -47,8 +47,8 @@ const Steps = () => {
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div className="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-12 h-12" viewBox="0 0 24 24">
-            <circle cx="12" cy="5" r="3"></circle>
-            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            
+            <path d=""></path>
           </svg>
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -65,8 +65,8 @@ const Steps = () => {
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div className="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-12 h-12" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
+            <path d=""></path>
+            
           </svg>
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
