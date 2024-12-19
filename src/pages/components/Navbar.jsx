@@ -83,7 +83,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Arts, Major in Psychology",
-          href: "/courses/bapsych",
+          href: "/components/ABPsychology",
         },
         {
           name: "Bachelor of Elementary Education/Teacher Certification Program",

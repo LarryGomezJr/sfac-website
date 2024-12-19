@@ -11,7 +11,7 @@ const Enrollment = () => {
     <div className='hero-header'>
       <div className='text-overlay'>
       <h1 className="sm:text-1xl md:text-2xl lg:text-8xl animated slideInDown">
-        BS in Computer Science
+        BA in Psychology
       </h1>
       </div>
       

@@ -41,7 +41,7 @@ body {
 
 .hero-header {
   position: relative;
-  background-image: url(../../public/number.png); /* Background image */
+  background-image: url(../../public/psych.jpg); /* Background image */
   background-size: cover; /* Cover the container */
   background-position: center; /* Center the image */
   height: 400px; /* Default height */
@@ -55,7 +55,7 @@ body {
 .text-overlay {
    /* Responsive font size */
   font-weight: bold; /* Bold text */
-  color: lightgray; /* Text color */
+  color: white; /* Text color */
   text-align: center; /* Center text horizontally */
   transform: translate(-50%, -50%); /* Perfect centering with transform */
   position: absolute; /* Position relative to hero container */
