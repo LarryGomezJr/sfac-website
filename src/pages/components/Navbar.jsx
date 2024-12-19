@@ -62,7 +62,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Science in Electronics Engineering",
-          href: "/courses/bsece",
+          href: "/components/BsElectronicsEng",
         },
         {
           name: "Bachelor of Science in Computer Engineering",
@@ -86,7 +86,7 @@ const Navbar = () => {
         },
         {
           name: "Bachelor of Elementary Education/Teacher Certification Program",
-          href: "/courses/beed",
+          href: "/components/BsBSED",
         },
         {
           name: "Bachelor of Secondary Education/Teacher Certification Program",
